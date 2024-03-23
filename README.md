@@ -1,73 +1,103 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+    <em><code>► Open Source Company Vehicles Maintenance Service</code></em>
+</p>
+<p align="center">
+	<!-- local repository, no metadata badges. -->
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=default&logo=TypeScript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/NestJS-E0234E.svg?style=default&logo=NestJS&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/MongoDB-47A248.svg?style=default&logo=MongoDB&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Mongoose-880000.svg?style=default&logo=Mongoose&logoColor=white" alt="Mongoose">
+	<img src="https://img.shields.io/badge/Jest-C21325.svg?style=default&logo=Jest&logoColor=white" alt="Jest">
+  <img src="https://img.shields.io/badge/jsonwebtoken-000000.svg?style=default&logo=json-web-tokens&logoColor=white" alt="jsonwebtoken">
+  <img src="https://img.shields.io/badge/AWS-S3-FF9900.svg?style=default&logo=Amazon-S3&logoColor=white" alt="AWS S3">
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+<br>
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+##  Overview
 
-## Description
+<code>► Open Source Implementations of needed API's for managing and maintaining the status of a company\'s vehicle fleet</code>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+---
 
-## Installation
+##  Features
 
-```bash
-$ npm install
+ - CRUD management for Cars, Users, and Drivers
+ - Ability for users to manage details of their Cars and Drivers
+ - Ability to assign a driver to a car
+
+---
+
+##  Repository Structure
+
+```sh
+└── ./
+    ├── README.md
+    ├── nest-cli.json
+    ├── package-lock.json
+    ├── package.json
+    ├── src
+    │   ├── app.module.ts
+    │   ├── cars
+    │   ├── document
+    │   ├── driver
+    │   ├── interfaces
+    │   ├── main.ts
+    │   └── user
+    ├── test
+    │   ├── app.e2e-spec.ts
+    │   └── jest-e2e.json
+    ├── tsconfig.build.json
+    ├── tsconfig.json
+    ├── yarn-error.log
+    └── yarn.lock
 ```
 
-## Running the app
+---
 
-```bash
-# development
-$ npm run start
+##  Getting Started
 
-# watch mode
-$ npm run start:dev
+**System Requirements:**
 
-# production mode
-$ npm run start:prod
-```
+* **Node.js**: `version 12.x or newer`
+* **Yarn**: `version 7.x or newer`
+* **NestJS**: `version 7.x or newer`
 
-## Test
+###  Installation
 
-```bash
-# unit tests
-$ npm run test
+<h4>From <code>source</code></h4>
 
-# e2e tests
-$ npm run test:e2e
+> 1. Clone the repository:
+>
+> ```console
+> $ git clone github.com/mmohhamadd/VehicleFleetStatusService
+> ```
+>
+> 2. Change to the project directory:
+> ```console
+> $ cd VehicleFleetStatusService
+> ```
+>
+> 3. Install the dependencies:
+> ```console
+> $ yarn install
+> ```
 
-# test coverage
-$ npm run test:cov
-```
+###  Usage
 
-## Support
+<h4>From <code>source</code></h4>
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+> Run the project using the command below:
+> ```console
+> $ nest start
+> ```
 
-## Stay in touch
+---
+##  Project Roadmap
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+- [X] `► Fuel Management`
